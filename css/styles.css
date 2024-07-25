@@ -27,17 +27,11 @@
 }
 
 .navigation {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #2e2f42;
-  text-decoration: underline;
-  text-decoration: none;
   list-style-type: none;
 }
-.nav-item {
+
+.nav-studio {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -52,15 +46,24 @@
   text-decoration: none;
 }
 
-.nav-item:hover {
+.nav-studio:hover {
   color: #404bbf;
 }
 
-.nav-item:active {
+.nav-studio:active {
   text-decoration: underline;
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background: #404bbf;
 }
 
-.address {
+.nav-portfolio {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -68,6 +71,31 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
+}
+.nav-portfolio:hover {
+  color: #404bbf;
+}
+.nav-contact {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.nav-contact:hover {
+  color: #404bbf;
+}
+
+.address {
+  font-family: "Roboto", sans-serif;
   list-style-type: none;
 }
 
@@ -117,8 +145,19 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  text-align: center;
 }
 .order-button:hover {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
+}
+
+.future-item {
+  color: #fff;
+}
+.second-item {
+}
+.second-item-title {
+}
+.text-second-item {
 }
