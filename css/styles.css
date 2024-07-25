@@ -157,7 +157,9 @@
 .future-title {
   color: #fff;
 }
-
+ul {
+  list-style-type: none;
+}
 .pres-company {
   list-style-type: none;
 }
@@ -178,6 +180,7 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .decs-company,
 .decs-portfolio {
   font-family: "Roboto", sans-serif;
@@ -214,5 +217,21 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #434455;
+}
+
+.third-items-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.third-items-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
