@@ -1,8 +1,9 @@
 .body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   width: 1440px;
   height: 3300px;
   background: #fff;
+  color: #2e2f42;
 }
 
 .logo-first-part {
@@ -37,7 +38,6 @@
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -64,7 +64,6 @@
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -106,8 +105,6 @@
   justify-content: flex-start;
   flex-direction: row;
   gap: 10px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -140,7 +137,6 @@
   justify-content: flex-start;
   flex-direction: row;
   gap: 10px;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -165,7 +161,6 @@ ul {
 }
 
 .second-items-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -173,8 +168,6 @@ ul {
   color: #2e2f42;
 }
 .text-second-items {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -183,7 +176,6 @@ ul {
 
 .decs-company,
 .decs-portfolio {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
@@ -201,7 +193,6 @@ ul {
 }
 
 .nome {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -211,8 +202,6 @@ ul {
 }
 
 .job-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -229,7 +218,6 @@ ul {
 }
 
 .third-items-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
