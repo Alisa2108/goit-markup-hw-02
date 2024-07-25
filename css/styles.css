@@ -90,7 +90,8 @@
   text-decoration: none;
 }
 
-.nav-contact:hover {
+.nav-contact:hover,
+.nav-contact:focus {
   color: #404bbf;
 }
 
@@ -146,18 +147,72 @@
   letter-spacing: 0.04em;
   color: #fff;
   text-align: center;
+  cursor: pointer;
 }
 .order-button:hover {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
 }
 
-.future-item {
+.future-title {
   color: #fff;
 }
-.second-item {
+
+.pres-company {
+  list-style-type: none;
 }
-.second-item-title {
+
+.second-items-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.text-second-item {
+.text-second-items {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.decs-company,
+.decs-portfolio {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-card {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.nome {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.job-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
 }
