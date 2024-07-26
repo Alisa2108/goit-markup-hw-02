@@ -127,6 +127,7 @@ ul {
 }
 .pres-company {
   list-style-type: none;
+  background-color: #ffffff;
 }
 
 .second-items-title {
@@ -143,7 +144,7 @@ ul {
 }
 
 .team-section {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 .third-section {
   background-color: #ffffff;
