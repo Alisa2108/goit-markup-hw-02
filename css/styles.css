@@ -1,16 +1,14 @@
-.body {
+body {
   font-family: "Roboto", "Raleway", sans-serif;
-  width: 1440px;
-  height: 3300px;
   background: #fff;
-  color: #2e2f42;
+  color: #434455;
 }
 
 .logo-first-part {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -32,7 +30,7 @@
   list-style-type: none;
 }
 
-.nav-studio {
+.nav-items {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -46,11 +44,11 @@
   text-decoration: none;
 }
 
-.nav-studio:hover {
+.nav-items:focus {
   color: #404bbf;
 }
 
-.nav-studio:active {
+.nav-items:active {
   text-decoration: underline;
   border-radius: 2px;
   width: 48px;
@@ -58,45 +56,10 @@
   background: #404bbf;
 }
 
-.nav-portfolio {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration: none;
-}
-.nav-portfolio:hover {
-  color: #404bbf;
-}
-.nav-contact {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration: none;
-}
-
-.nav-contact:hover,
-.nav-contact:focus {
-  color: #404bbf;
-}
-
 .address {
   font-family: "Roboto", sans-serif;
   list-style-type: none;
+  font-style: normal;
 }
 
 .nav-address {
@@ -113,15 +76,19 @@
   text-decoration: none;
 }
 
-.nav-address:hover {
+.nav-address:focus {
   color: #404bbf;
+}
+
+.first-section {
+  background-color: #2e2f42;
 }
 
 .main-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -129,6 +96,7 @@
 }
 
 .order-button {
+  font-family: "Roboto", sans-serif;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   border-radius: 4px;
@@ -145,7 +113,7 @@
   text-align: center;
   cursor: pointer;
 }
-.order-button:hover {
+.order-button:focus {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
 }
@@ -174,13 +142,22 @@ ul {
   color: #434455;
 }
 
+.third-section {
+  background-color: #f4f4fd;
+}
+
+.third-items {
+  background-color: #ffffff;
+}
+
 .decs-company,
 .decs-portfolio {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .team-card {
@@ -222,4 +199,14 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.footer-style {
+  background-color: #2e2f42;
+}
+
+.text-footer {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
