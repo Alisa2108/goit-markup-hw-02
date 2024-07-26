@@ -1,10 +1,21 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   background: #fff;
   color: #434455;
 }
 
-.logo-first-part {
+.logo-part {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -13,16 +24,6 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
-}
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #2e2f42;
 }
 
 .navigation {
@@ -152,11 +153,18 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.team-section {
+  background-color: #f4f4fd;
+}
 .third-section {
   background-color: #f4f4fd;
 }
 
 .third-items {
+  background-color: #ffffff;
+}
+
+.decs-company-style {
   background-color: #ffffff;
 }
 
@@ -215,7 +223,7 @@ ul {
   background-color: #2e2f42;
 }
 
-.logo-footer-first-part {
+.logo-footer-part {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -223,7 +231,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -233,7 +241,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 .text-footer {
   line-height: 1.5;
