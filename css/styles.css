@@ -140,10 +140,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.third-section {
-  background-color: #ffffff;
-}
-
+.third-section,
 .fourth-section {
   background-color: #f4f4fd;
 }
@@ -174,6 +171,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 
 .nome {
