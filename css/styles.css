@@ -26,6 +26,10 @@ body {
   color: #4d5ae5;
 }
 
+ul {
+  list-style: none;
+}
+
 .navigation {
   color: #2e2f42;
   list-style-type: none;
